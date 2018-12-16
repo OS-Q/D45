@@ -7,7 +7,7 @@
 
   <Targets>
     <Target>
-      <TargetName>N76E003</TargetName>
+      <TargetName>qitas</TargetName>
       <ToolsetNumber>0x0</ToolsetNumber>
       <ToolsetName>MCS-51</ToolsetName>
       <uAC6>0</uAC6>
@@ -46,7 +46,7 @@
             <InvalidFlash>1</InvalidFlash>
           </TargetStatus>
           <OutputDirectory>.\obj\</OutputDirectory>
-          <OutputName>n76e003</OutputName>
+          <OutputName>ST7735</OutputName>
           <CreateExecutable>1</CreateExecutable>
           <CreateLib>0</CreateLib>
           <CreateHexFile>1</CreateHexFile>
@@ -377,19 +377,9 @@
           <GroupName>user</GroupName>
           <Files>
             <File>
-              <FileName>common.c</FileName>
+              <FileName>main.c</FileName>
               <FileType>1</FileType>
-              <FilePath>.\user\common.c</FilePath>
-            </File>
-            <File>
-              <FileName>Delay.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\user\Delay.c</FilePath>
-            </File>
-            <File>
-              <FileName>font.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\user\font.c</FilePath>
+              <FilePath>.\user\main.c</FilePath>
             </File>
             <File>
               <FileName>LCD.c</FileName>
@@ -397,9 +387,19 @@
               <FilePath>.\user\LCD.c</FilePath>
             </File>
             <File>
-              <FileName>main.c</FileName>
+              <FileName>font.c</FileName>
               <FileType>1</FileType>
-              <FilePath>.\user\main.c</FilePath>
+              <FilePath>.\user\font.c</FilePath>
+            </File>
+            <File>
+              <FileName>Delay.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\user\Delay.c</FilePath>
+            </File>
+            <File>
+              <FileName>common.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\user\common.c</FilePath>
             </File>
           </Files>
         </Group>

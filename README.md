@@ -1,50 +1,61 @@
-﻿# D3: [N76E003-显示](https://github.com/OS-Q/D3) 
+﻿# D45: [LED显示设备](https://github.com/OS-Q/D45) 
 
 [![sites](OS-Q/OS-Q.png)](http://www.OS-Q.com)
 
-基于N76E003单片机的信号显示
-
-#### 归属控制平台：[W1](https://github.com/OS-Q/W1)
+#### 归属显示输出：[W7](https://github.com/OS-Q/W7)
 
 #### 关于系统架构：[OS-Q](https://github.com/OS-Q/OS-Q)
 
----
+## [设备描述](https://github.com/OS-Q/D45/wiki) 
 
-## [设备描述](https://github.com/OS-Q/D3/wiki) 
+N76E003单片机拥有SPI外设和IO驱动，ST7735是小尺寸LCD驱动芯片
 
-N76E003单片机拥有SPI外设和IO驱动，keil开发
+### [包含资源](OS-Q/) 
 
-### [共用资源](https://github.com/OS-Q/D3/wiki/src) 
+#### [资料手册](docs/)
 
-#### software
+相关芯片手册
 
-##### N76E003 Keil c51工程文件
+#### [工程源码](project/)
 
-#### hardware
-
-##### 硬件电路设计和参考文档
+基于N76E003单片机，使用Keil c51开发
 
 ---
 
-边缘设备命名规则：体系 Q[1,4] > 节点 M[1,12] > 平台 W[1,52] > 设备 D[1,365]。
+- 边缘设备统一命名规则：体系 Q:[1,4] -> 节点 M:[1,12] -> 平台 W:[1,52] -> 设备 D:[1,365]
 
-## [同级设备](https://github.com/OS-Q/D1/wiki/index)
+## [同级设备](https://github.com/OS-Q/W7/wiki) 
 
-#### D1:[ADC 设备](https://github.com/OS-Q/D1)
+#### D43：[LED灯](https://github.com/OS-Q/D43)
 
-#### D2:[感知设备](https://github.com/OS-Q/D2)
+通过LED灯光显示相关信息
 
-#### D4:[电机设备](https://github.com/OS-Q/D4)
+#### D44：[数码管](https://github.com/OS-Q/D44)
 
-#### D5:[通信设备](https://github.com/OS-Q/D5)
+通过数码管显示数据信息
 
-#### D6:[无线设备](https://github.com/OS-Q/D6)
+#### -> D45：[小尺寸](https://github.com/OS-Q/D45)
 
-#### D7:[红外设备](https://github.com/OS-Q/D7)
+3寸内显示器：基于8051单片机和ST7735 驱动IC的显示系统
 
+#### D46：[中尺寸](https://github.com/OS-Q/D46)
+
+3-5寸内显示器
+
+#### D47：[大尺寸](https://github.com/OS-Q/D47)
+
+5-8寸内显示器
+
+#### D48：[立体呈现](https://github.com/OS-Q/D48)
+
+光学设备立体呈现
+
+#### D49：[物理显示](https://github.com/OS-Q/D49)
+
+通过移动外部物体呈现数据
 
 ---
 
-###  [Q redefined the scope of operation system](http://www.OS-Q.com)
-###  qitas@qitas.cn
-#### 2018-11-27
+####  © qitas@qitas.cn
+###  [OS-Q redefined Operation System](http://www.OS-Q.com)
+####  @ 2018-12-16
