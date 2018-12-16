@@ -1,4 +1,4 @@
-﻿# D45: [LED显示设备](https://github.com/OS-Q/D45) 
+﻿# D45: [小尺寸显示设备](https://github.com/OS-Q/D45) 
 
 [![sites](OS-Q/OS-Q.png)](http://www.OS-Q.com)
 
