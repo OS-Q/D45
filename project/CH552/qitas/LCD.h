@@ -1,7 +1,7 @@
 #ifndef __LCD_H
 #define __LCD_H	
 
-#include "CH554.h"
+#include "CH552.h"
 #include "common.h"
 //#include "sys.h"
 

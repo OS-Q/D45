@@ -7,7 +7,7 @@
 * Description        : CH554 Time 初始化、定时器、计数器赋值、T2捕捉功能开启函数等
                        定时器中断函数          		 		   
 *******************************************************************************/
-#include "CH554.h"                                                  
+#include "CH552.h"                                                  
 #include "common.h"
 #include "Timer.h" 
 #include "stdio.h"

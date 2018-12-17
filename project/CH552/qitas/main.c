@@ -1,16 +1,12 @@
 #include <stdio.h>
 #include <string.h>
 #include <intrins.h> 
-
-
-#include "CH554.h"
+#include "CH552.h"
 #include "common.h"
 #include "Timer.h"
 #include "USB.h"
 #include "GPIO.h"
-
 #include "lcd.h"
-#include "font.h"
 /******************************************************
 GND=GND
 VCC=3.3V

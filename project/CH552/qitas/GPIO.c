@@ -7,7 +7,7 @@
 * Description        : CH554 IO 设置接口函数和GPIO中断函数  
 *******************************************************************************/
 
-#include "CH554.H"                                                          
+#include "CH552.h"                                                          
 #include "common.h"
 #include "GPIO.h"
 #include "stdio.h"

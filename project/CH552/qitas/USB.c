@@ -9,7 +9,7 @@
 #include 	<stdlib.h>
 #include 	<string.h>
 
-#include 	"CH554.h"
+#include 	"CH552.h"
 #include 	"common.h"
 #include 	"USB.h"
 
