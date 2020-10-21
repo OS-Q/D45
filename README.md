@@ -10,6 +10,5 @@
 
 * [文档](docs/)
 * [工程](project/)
-* [工具](software/)
 
 ### [OS-Q = Open Solutions | Open Source | Operating System ](http://www.OS-Q.com/LiteLCD)
